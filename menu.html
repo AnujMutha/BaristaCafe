@@ -1,0 +1,169 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style type="text/css">
+        @font-face {
+            font-family: cursive_font;
+            src: url(assets/font/cursive.ttf);
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-color: #020010;
+            color: white;
+        }
+        .wrapper{
+            width:1200px;
+            margin:100px auto;
+        }
+        .title{
+            text-align:center;
+            margin-bottom:60px;
+        }
+        .title h4{
+            text-transform:capitalize;
+            font-size:36px;
+            position:relative;
+            display:inline-block;
+            padding-bottom:10px;
+        }
+        .title h4 span{
+            display:block;
+            font-size:18px;
+            font-style:italic;
+            margin-bottom:10px;
+        }
+        .title h4:before{
+            position:absolute;
+            content:"";
+            width:100px;
+            height:2px;
+            background-color:#ff7720;
+            bottom:0;
+            left:50%;
+            transform:translateX(-50%);
+        }
+        .menu{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:space-between;
+        }
+        .single-menu{
+            flex-basis:580px;
+            margin-bottom:40px;
+            padding-bottom:40px;
+            border-bottom:1px solid #ddd;
+        }
+        .single-menu:nth-child(5), .single-menu:nth-child(6){
+            border-bottom:0;
+        }
+        .single-menu{
+            display:flex;
+            flex-direction:row;
+            align-items:center;
+        }
+        .single-menu:hover img{
+            border-radius:0;
+        }
+        .single-menu img{
+            max-width:180px;
+            margin-right:30px;
+            border-radius:50%;
+            border:1px solid #ddd;
+            padding:3px;
+            transition:.5s;
+        }
+        .single-menu h4{
+            text-transform:capitalize;
+            font-size:22px;
+            border-bottom:1px dashed #333;
+            margin-bottom:5px;
+            padding-bottom:5px;
+        }
+        .single-menu h4 span{
+            float:right;
+            color:#ff7720;
+            font-style:italic;
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="title">
+        <h4><span  style="font-family: cursive_font;font-size: 60px;font-weight: normal">Barista</span>our menu</h4>
+    </div>
+    <div class="menu">
+        <div class="single-menu">
+            <img src="assets/image/burger.jfif" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>Burger<span>99&#8377;</span></h4>
+                <p>Oven fresh bread stuffed with fresh patty and variety of veges and sauces</p>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img src="assets/image/ff.jfif" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>French Fries<span>129&#8377;</span></h4>
+                <p>Fresh potato sticks, deeply fried in oil</p>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img src="assets/image/gb.jfif" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>Garlic Bread<span>149&#8377;</span></h4>
+                <p>Bread with an intense flavour rich of garlic and other herbs</p>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img src="assets/image/po_wed.jpg" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>Potato Wedges<span>149&#8377;</span></h4>
+                <p>Potato sliced in form of wedges and served with special mayonnaise</p>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img src="assets/image/coldcoffe.jfif" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>Cold Coffee<span>79&#8377;</span></h4>
+                <p>Fresh milk mixed with brewed and flavour intense rich coffee</p>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img src="assets/image/frap.jpg" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>Frappuccino<span>179&#8377;</span></h4>
+                <p>Now, experience Frappuccino at your very own <span style="font-family: cursive_font;font-weight: normal">Barista</span> cafe</p>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img src="assets/image/tea.jpg" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>Tea<span>69&#8377;</span></h4>
+                <p>Flavour rich tea from Assam </p>
+            </div>
+        </div>
+        <div class="single-menu">
+            <img src="assets/image/bb_shake.jpg" alt="" width="150px" height="150px">
+            <div class="menu-content">
+                <h4>Blueberry shake<span>199&#8377;</span></h4>
+                <p>Freshly plucked blue-berries mixed with milk and served with whipping cream</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer-basic">
+    <footer>
+        <div class="social"><a href="https://www.instagram.com/anuj.mutha/"><i class="icon ion-social-instagram"></i></a><a href="https://twitter.com/anuj_mutha"><i class="icon ion-social-snapchat"></i></a><a href="https://twitter.com/anuj_mutha"><i class="icon ion-social-twitter"></i></a><a href="https://www.facebook.com/anuj.mutha.31/"><i class="icon ion-social-facebook"></i></a></div>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="index.html">Home</a></li>
+            <li class="list-inline-item"><a href="menu.html">Menu</a></li>
+            <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p style="font-size: 15px;font-family: 'Product Sans'" class="copyright">Barista, Copyright &copy; 2022</p>
+    </footer>
+</div>
+</body>
+</html>
