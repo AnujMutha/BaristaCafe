@@ -1,2 +1,2 @@
 # BaristaCafe
-A simple web page for cafe
+A simple web page for cafe :
